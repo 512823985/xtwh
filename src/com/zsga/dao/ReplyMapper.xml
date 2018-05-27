@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper    
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zsga.dao.ReplyMapper">
+	<insert id="insertReply" parameterType="Reply">
+		insert into 
+			t_reply(questionid, username, phone, content, time, ip)
+			values(#{questionid}, #{username}, #{phone}, #{content}, now(), #{ip})
+	</insert>
+	
+	<select id="queryReplyList" parameterType="int" resultType="Reply">
+		select * from t_reply where questionid = #{id}
+	</select>
+</mapper>

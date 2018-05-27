@@ -1,0 +1,4 @@
+#Wed Aug 23 00:39:52 CST 2017
+eclipse.preferences.version=1
+validator.Checked=WebRoot/WEB-INF/jsps/easyui/js/jquery-1.8.0.min.js,WebRoot/WEB-INF/jsps/easyui/easyui/1.3.2/jquery-1.8.0.min.js,WebRoot/WEB-INF/jsps/easyui/easyui/1.3.3/jquery.min.js,WebRoot/WEB-INF/jsps/main/listQuestion.jsp,WebRoot/js/jquery.js
+validator.Unchecked=
